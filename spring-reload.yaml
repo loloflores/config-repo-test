@@ -4,4 +4,4 @@ spring:
     allow-bean-definition-overriding: true # Enable bean override
   data:
     mongodb:
-      uri: mongodb://localhost:27017/bd4
+      uri: mongodb://localhost:27017/bd1
