@@ -1,5 +1,5 @@
 spring:
-  profiles: test
+  config.activate.on-profile: test
   main:
     allow-bean-definition-overriding: true # Enable bean override
   data:
