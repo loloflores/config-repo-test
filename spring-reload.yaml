@@ -4,7 +4,7 @@ spring:
     allow-bean-definition-overriding: true # Enable bean override
   data:
     mongodb:
-      uri: mongodb://localhost:27017/bd
+      uri: mongodb://localhost:27017/bd2
       
 ## LOGGING
 logging:
@@ -15,8 +15,8 @@ logging:
     org.springframework.data.convert: ERROR # https://jira.spring.io/browse/DATAMONGO-2400
     org.springframework.data: DEBUG
     com.tui.architecture: WARN
-    com.tuimm: DEBUG
+    com.tuimm: INFO
 
 custom:
-  p1: "property 1 updated"
-  p2: "property 2 updated"
+  p1: "property 1 updated 2"
+  p2: "property 2 updated 2"
