@@ -5,3 +5,18 @@ spring:
   data:
     mongodb:
       uri: mongodb://localhost:27017/bd
+      
+## LOGGING
+logging:
+  config: classpath:log4j2-local.xml # Location of the logging configuration file. For instance, `classpath:logback.xml` for Logback.
+  file.name: log4j2-local.xml # Log file name (for instance, `myapp.log`). Names can be an exact location or relative to the current directory.
+  level: # Log levels severity mapping. For instance, `logging.level.org.springframework: DEBUG`.
+    org.springframework: WARN
+    org.springframework.data.convert: ERROR # https://jira.spring.io/browse/DATAMONGO-2400
+    org.springframework.data: DEBUG
+    com.tui.architecture: WARN
+    com.tuimm: INFO
+
+custom:
+  p1: "property 1"
+  p2: "property 2"
