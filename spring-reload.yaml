@@ -15,8 +15,8 @@ logging:
     org.springframework.data.convert: ERROR # https://jira.spring.io/browse/DATAMONGO-2400
     org.springframework.data: DEBUG
     com.tui.architecture: WARN
-    com.tuimm: INFO
+    com.tuimm: DEBUG
 
 custom:
-  p1: "property 1 updated 2"
-  p2: "property 2 updated 2"
+  p1: "property 1 updated 3"
+  p2: "property 2 updated 3"
